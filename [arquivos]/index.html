@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <head>
+    <title> Restaurane do Cirilo </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/js.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar_titulo"> Restaurante do Cirilo </div>
+            <a href="#" class="navbar_button">
+            <span class="bar" id="top"></span>
+            <span class="bar" id="center"></span>
+            <span class="bar" id="bottom"></span>
+        </a>
+            <div class="navbar_link"> 
+                
+        <ul>
+            <li> <a href="cardapio.html"> Cardapio </a> </li>
+            <li> <a href="quem.html"> Quem somos  </a> </li>
+    
+            <li>
+                <div class="dropdown"> <button class="drop_button" > Saiba Mais <i class="fa-solid fa-caret-down"> </i> </button>
+                <div class="drop_content">
+                <a href="index2.html"> Local </a>
+                <a href="index3.html"> Trabalhe conosco </a>
+                </div>
+                </div>
+            </li>       
+        </ul>
+    </header>
+
+    <main>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/1.png" style="width: 100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/2.png" style="width: 100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img//3.png" style="width: 100%;">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="container">
+          <div class="card">
+            <div class="img">
+              <img src="img/hamburguer.png">
+            </div>
+            <div class="content">
+              <h3>Hamburguer R$ 10,00</h3>
+              <a href="#">Compre agora!</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="img/taco.png">
+            </div>
+            <div class="content">
+              <h3>Taco R$ 7,00</h3>
+              <a href="#">Compre agora!</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="img/sushi.png">
+            </div>
+            <div class="content">
+              <h3>Sushi R$ 15,00</h3>
+              <a href="#">Compre agora!</a>
+            </div>
+          </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>
